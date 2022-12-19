@@ -1,11 +1,30 @@
-import logo from './logo.svg';
+import {React} from 'react';
+import { ChakraProvider, VStack} from '@chakra-ui/react';
+import Header from './components/header/Header';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
+import "animate.css"
+
+import Home from './components/home/Home';
+import Projects from './components/projects/Projects';
+
+import {theme} from "./Theme/Theme";
+import Footer from './components/footer/Footer';
 
 function App() {
+  
   return (
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
+    <ChakraProvider theme={theme}>
+      <VStack backgroundColor="brand.300">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+        </Routes>
+        <Projects/>
+        <Footer/>
+      </VStack>
+    </ChakraProvider>
   );
 }
 
