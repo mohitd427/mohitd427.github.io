@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.1ba29ee2.js",
-    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/static/css/main.607ae758.css",
+    "main.js": "/static/js/main.24275dd5.js",
+    "static/media/Shopping BAzar.png": "/static/media/Shopping BAzar.da5d69a139a410cc1194.png",
+    "static/media/Mywardrobe.png": "/static/media/Mywardrobe.faa786f06435d068c4f1.png",
+    "static/media/MOHIT_KUMAR_Resume (1).pdf": "/static/media/MOHIT_KUMAR_Resume (1).a832cbb3d68f45e77f04.pdf",
+    "static/media/CoscheduleImg.png": "/static/media/CoscheduleImg.861355a793e174887b9b.png",
+    "static/media/hubspotImg.png": "/static/media/hubspotImg.9fee37cec8933dd34c27.png",
+    "static/media/twiik_img.png": "/static/media/twiik_img.5cf3e61bc14ef91c9f3a.png",
+    "static/media/IMG-20220430-WA0025.jpg": "/static/media/IMG-20220430-WA0025.0e804233d226ea2eabd9.jpg",
+    "static/media/rb.png": "/static/media/rb.a8548204fb4090ddaa9a.png",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.1ba29ee2.js.map": "/static/js/main.1ba29ee2.js.map",
-    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+    "main.607ae758.css.map": "/static/css/main.607ae758.css.map",
+    "main.24275dd5.js.map": "/static/js/main.24275dd5.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.1ba29ee2.js"
+    "static/css/main.607ae758.css",
+    "static/js/main.24275dd5.js"
   ]
 }
