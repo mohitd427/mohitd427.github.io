@@ -29,16 +29,14 @@ const About = () => {
           pt={['2', '2', '3', '4']}
           textAlign="justify"
         >
-          <p>
+          <p style={{paddingTop:'20px'}}>
             Hi, There! I'm <span id="name">Mohit Kumar.</span> A Full Stack
             Developer. I have done B.tech in Mechanical Engineering from <span id="name">Amity University </span>, Uttar Pradesh, India. I
             love to build cool projects using frameworks I like react . Whenever I
             build or learn something new, I share it with other people.
           </p>
           <br />
-          <p>
-            I love to play outdoor games like football & cricket. In my free time I Love to spend time searching for new discoveries in space.
-          </p>
+          
           <br />
           <p>Check out the social links below to connect.</p>
         </Box>

@@ -1,0 +1,18 @@
+ /* skilss */
+
+ #skills{
+    margin: 1vh 0 10vh 0;
+  }
+
+  #skills div{
+    text-align: center;
+    border-left: 2px solid #023e49;
+    border-right: 2px solid #023e49;
+  }
+
+  #skills img{
+    background-color: #023e49;
+    padding: 3vh;
+    border-radius: 50%;
+    width: 100px;
+  }

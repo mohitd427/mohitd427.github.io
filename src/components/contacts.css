@@ -1,0 +1,69 @@
+
+    /* Contact */
+
+  /* contact */
+  #contact{
+    margin: 2vh 0 10vh 0;
+  }
+
+  #div-form{
+    display: block;
+    margin: auto;
+    margin-bottom: 5vh;
+  }
+
+  #div-form  input{
+    display: block;
+    width: 400px;
+    height: 6vh;
+    margin: 2vh auto;
+    border: 1px solid #023e49;
+    border-radius: 5px;
+    color: #E11D48;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #div-form  input::placeholder{
+    color: #023e49;
+    font-size: 16px;
+    font-weight: normal;
+  }
+  #text-area{
+    display: block;
+    margin: auto;
+    margin-bottom: 2vh;
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    color: #E11D48;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #div-form button{
+    display: block;
+    margin: auto;
+    background-color: #023e49;
+    color: white;
+    width: 400px;
+    height: 6vh;
+    border: 1px solid #023e49;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  #contact-ways{
+    font-size: 3rem;
+    margin: 2vw auto;
+    padding: 2vh 7vw;
+    text-align: center;
+  }
+
+  #contact-ways > a{
+    margin: 2vw 2vh;
+  }
+
+    
+    

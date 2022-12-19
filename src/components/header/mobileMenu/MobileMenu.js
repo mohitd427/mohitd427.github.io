@@ -32,15 +32,60 @@ const MobileMenu = () => {
             border: '2px solid white',
           }}
         />
-        <MenuList bg="brand.100" color="white" >
+        <MenuList bg="brand.100" color="white">
           <Link to="/">
-            <MenuItem _focus={{bg:"whitesmoke", color:"black"}} _hover={{bg:"whitesmoke", color:"black"}}>Home</MenuItem>
+            <MenuItem
+            color={'black'}
+            >
+              Home
+            </MenuItem>
+          </Link>
+          <Link to="/about">
+            <MenuItem
+            color={'black'}
+              _focus={{ bg: 'whitesmoke', color: 'black' }}
+              _hover={{ bg: 'whitesmoke', color: 'black' }}
+            >
+              About Me
+            </MenuItem>
+          </Link>
+          <Link to="/skills">
+            <MenuItem
+            color={'black'}
+              _focus={{ bg: 'whitesmoke', color: 'black' }}
+              _hover={{ bg: 'whitesmoke', color: 'black' }}
+            >
+              Skills
+            </MenuItem>
           </Link>
           <Link to="/projects">
-            <MenuItem _hover={{bg:"whitesmoke", color:"black"}}> Projects</MenuItem>
-          </Link>          
-          <LinkChakra href="https://drive.google.com/file/d/1SAgnF2mgVBxDEoqZkJsfc3Ofv061nlTf/view?usp=sharing" target="">
-            <MenuItem >Resume</MenuItem>
+            <MenuItem color={'black'} _hover={{ bg: 'whitesmoke', color: 'black' }}>
+              {' '}
+              Projects
+            </MenuItem>
+          </Link>
+          <Link to="/githubStats">
+            <MenuItem
+            color={'black'}
+              _focus={{ bg: 'whitesmoke', color: 'black' }}
+              _hover={{ bg: 'whitesmoke', color: 'black' }}
+            >
+              Github Stats
+            </MenuItem>
+          </Link>
+          <Link to="/">
+            <MenuItem
+            color={'black'}
+            >
+              Contacts
+            </MenuItem>
+          </Link>
+          <LinkChakra
+            href="https://drive.google.com/file/d/1SAgnF2mgVBxDEoqZkJsfc3Ofv061nlTf/view?usp=sharing"
+            target=""
+            color={'black'}
+          >
+            <MenuItem>Resume</MenuItem>
           </LinkChakra>
         </MenuList>
       </Menu>

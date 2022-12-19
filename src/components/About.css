@@ -1,0 +1,41 @@
+#about-me{
+    background-color: whitesmoke;
+    color: black;
+    margin: 2vh 0 10vh 0;
+    padding: 5vh 3vw;
+  }
+
+  #about-me > h1, #skills > h1, #contact > h1, #projects > h1, .section_heading{
+    text-align: center;
+    margin-bottom: 7vh;
+    text-decoration: underline;
+    text-underline-offset: 1.5vh;
+    text-decoration-color: #E11D48;
+  }
+
+  #about-me > div{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+
+  #about-me> div :nth-child(1){
+    margin-right: 5vw;
+  }
+
+  #about-me> div :nth-child(2){
+    margin-left: 5vw;
+  }
+
+  #about-me> div > img{
+    width: 60%;
+  }
+  
+  #about-me> div > p{
+    font-size: 20px;
+    line-height: 4vh;
+  }
+
+  #about-me span{
+    color: #E11D48;
+  }

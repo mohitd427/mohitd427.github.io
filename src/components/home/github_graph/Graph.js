@@ -15,7 +15,7 @@ const Graph = () => {
   }, []);
   return (
     <>
-      <Box className="contribution-graph" id='github-graph'>
+      <Box m='20px' className="contribution-graph" id='github-graph'>
         <Text
           textAlign="center"
           fontSize={['1.2rem', '1.4rem', '1.6rem', '2rem']}

@@ -9,13 +9,21 @@ const ButtonList = () => {
         <Link to="/">
           <button>Home</button>
         </Link>
+        <Link to="/about">
+          <button>About Me </button>
+        </Link>       
+        <Link to="/skills">
+          <button>Skills</button>
+        </Link>
         <Link to="/projects">
           <button>Projects</button>
         </Link>
-        <LinkChakra href="" isExternal>
-          {' '}
-         
-        </LinkChakra>
+        <Link to="/githubStats">
+          <button>Github Stats</button>
+        </Link>
+        <Link to="/Contacts">
+          <button>Contacts</button>
+        </Link>
         <a 
         href="https://drive.google.com/file/d/1SAgnF2mgVBxDEoqZkJsfc3Ofv061nlTf/view?usp=sharing"
         download={'Mohit_Kumar_Resume(1).pdf'}        

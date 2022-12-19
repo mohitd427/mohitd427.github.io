@@ -1,6 +1,6 @@
 import { Box, Container, Flex, Image, Button } from '@chakra-ui/react';
 import React from 'react';
-import profilePic from '../images/IMG-20220430-WA0025.jpg';
+import profilePic from '../images/mohit_pic-removebg-preview.png';
 import Socials from './socials/Socials';
 import About from './about/About';
 import Graph from './github_graph/Graph';
@@ -19,6 +19,7 @@ const Home = () => {
               w={['80vw', '85vw', '90vw', '40vw']}
               ml={['2', '3', '4', '4']}
               borderRadius="50%"
+              bg={'yellow.200'}
             />
           </Box>
         </Container>
