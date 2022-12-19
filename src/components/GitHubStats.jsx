@@ -25,7 +25,7 @@ const GitHubStats = () => {
       <div>
         
         {/* Streak Status */}
-        <div className="stats_container" style={{display:'flex'}}>
+        <div className="stats_container" >
           <img data-aos="fade-up"
             src="https://github-readme-streak-stats.herokuapp.com/?user=vrishabh081&theme=nightowl&border_radius=7"
             alt="Github stats"
