@@ -1,3 +1,4 @@
+import Graph from "./home/github_graph/Graph";
 
 
 
@@ -20,10 +21,12 @@ const GitHubStats = () => {
 
 
   return (
+    <>
+    
     <div id="github_section">
       <h2 className="section_heading" style={{color:'white', fontSize:'20px'}}>GitHub Stats</h2>
       <div>
-        
+      <Graph/>
         {/* Streak Status */}
         <div className="stats_container" >
           <img data-aos="fade-up"
@@ -37,6 +40,7 @@ const GitHubStats = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

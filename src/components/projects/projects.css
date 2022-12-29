@@ -1,6 +1,6 @@
 .projects_grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.2rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
   }
   
     /* Custom, iPhone Retina */
@@ -46,7 +46,7 @@
   /* Large Devices, Wide Screens */
   @media only screen and (min-width: 1200px) {
     .projects_grid {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1.2rem;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
       }
   }

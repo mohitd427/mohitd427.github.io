@@ -5,12 +5,12 @@ import { Link } from 'react-router-dom';
 const ButtonList = () => {
   return (
     <div className="button_list">
-      <HStack mt="4" mr="2" className="button_stack">
+      <HStack mt="4" mr="1" className="button_stack">
         <Link to="/">
           <button>Home</button>
         </Link>
         <Link to="/about">
-          <button>About Me </button>
+          <button>About </button>
         </Link>       
         <Link to="/skills">
           <button>Skills</button>
@@ -18,9 +18,7 @@ const ButtonList = () => {
         <Link to="/projects">
           <button>Projects</button>
         </Link>
-        <Link to="/githubStats">
-          <button>Github Stats</button>
-        </Link>
+        
         <Link to="/Contacts">
           <button>Contacts</button>
         </Link>

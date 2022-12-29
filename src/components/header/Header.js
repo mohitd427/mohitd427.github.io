@@ -20,7 +20,7 @@ const Header = () => {
         <Flex w="100%">
           <Image
             onClick={Reload}
-            boxSize={["10","12","14","16"]}
+            boxSize={["8","12","14","16"]}
             borderRadius="full"
             src={RBLogo}
             className="myLogo"

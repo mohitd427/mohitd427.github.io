@@ -3,7 +3,6 @@ import React from 'react';
 import profilePic from '../images/mohit_pic-removebg-preview.png';
 import Socials from './socials/Socials';
 import About from './about/About';
-import Graph from './github_graph/Graph';
 
 import resume from '../header/buttonList/MOHIT_KUMAR_Resume (1).pdf';
 
@@ -33,7 +32,7 @@ const Home = () => {
           Resume
         </Button>
       </a>
-      <Graph />
+     
     </>
   );
 };

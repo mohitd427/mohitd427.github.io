@@ -55,10 +55,12 @@
   }
 
   #contact-ways{
-    font-size: 3rem;
-    margin: 2vw auto;
-    padding: 2vh 7vw;
+    font-size: 2rem;
+    margin: 20px;
+   
     text-align: center;
+    display: flex;
+    width: 10px;
   }
 
   #contact-ways > a{
