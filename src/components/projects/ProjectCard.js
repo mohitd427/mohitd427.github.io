@@ -7,8 +7,8 @@ import './ProjectCard.css';
 const ProjectCard = props => {
   return (
     <>
-      <VStack className="project_card" gap="1" color="white">
-        <LazyLoadImage width={'100%'} src={props.imgSrc} id="image" />     
+      <Box className="project_card" gap="1" color="white">
+        <Image width={'100%'} src={props.imgSrc} id="image" />     
 
         <Box
           className="description"
@@ -18,7 +18,7 @@ const ProjectCard = props => {
         >
           {props.name}
         </Box>
-      </VStack>
+      </Box>
     </>
   );
 };

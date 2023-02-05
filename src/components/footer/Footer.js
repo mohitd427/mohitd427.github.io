@@ -5,7 +5,7 @@ import './Footer.css';
 const Footer = () => {
   return (
     <div className="footer">
-      <Center pt={['2', '2', '3', '3']} >&copy; Mohit Kumar | 2022</Center>
+      <Center pt={['2', '2', '3', '3']} >&copy; Mohit Kumar | 2023</Center>
     </div>
   );
 };

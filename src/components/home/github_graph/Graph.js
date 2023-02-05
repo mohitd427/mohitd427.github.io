@@ -5,7 +5,6 @@ import 'github-calendar/dist/github-calendar.min.js';
 import { Box, Text } from '@chakra-ui/react';
 import './Graph.css';
 
-
 const Graph = () => {
   useEffect(() => {
     GithubCalendar('.calendar', 'mohitd427', {
@@ -21,8 +20,7 @@ const Graph = () => {
           fontSize={['1.2rem', '1.4rem', '1.6rem', '2rem']}
           fontWeight="semibold"
           color="white"
-          mt="5"
-        >
+          mt="5"        >
           GitHub Contributions Calendar{' '}
         </Text>
         <div className="calendar" w="100vw"></div>
@@ -31,5 +29,4 @@ const Graph = () => {
     </>
   );
 };
-
 export default Graph;

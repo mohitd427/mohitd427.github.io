@@ -3,11 +3,14 @@ import {
   VStack,
   Flex,
   Image,
+  Box,
+  HStack,
 } from '@chakra-ui/react';
-import RBLogo from '../images/rb.png';
+import RBLogo from '../images/mklogo.png';
 import './Header.css';
 import ButtonList from './buttonList/ButtonList';
 import MobileMenu from './mobileMenu/MobileMenu';
+import { Divider } from 'antd';
 
 const Header = () => {
   const Reload = () => {
@@ -16,22 +19,20 @@ const Header = () => {
 
   return (
     <>
-      <VStack>
-        <Flex w="100%">
-          <Image
+      <HStack>
+        <Box w="100%" display={'flex'} justifyContent={'space-between'}>
+          <Image 
             onClick={Reload}
-            boxSize={["8","12","14","16"]}
+            boxSize={['8', '12', '14', '16']}
             borderRadius="full"
             src={RBLogo}
             className="myLogo"
-            mt={['3','4','4','4']}
-            ml={['1','1','1','2']}
           ></Image>
-          <span className="spacer"></span>
-          <MobileMenu/>
-          <ButtonList />
-        </Flex>
-      </VStack>
+<Box className='spacer'></Box>
+          <MobileMenu />
+        </Box>
+        <ButtonList />
+      </HStack>
     </>
   );
 };

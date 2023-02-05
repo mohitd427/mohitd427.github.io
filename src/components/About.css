@@ -39,3 +39,12 @@
   #about-me span{
     color: #E11D48;
   }
+
+    .aboutMe {
+      text-indent: 1ch;
+    }
+  
+    .aboutMe p {
+      text-indent: 5ch;
+      font-family: 'Open Sans', sans-serif;
+    }

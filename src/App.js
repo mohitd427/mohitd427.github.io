@@ -14,6 +14,7 @@ import Footer from './components/footer/Footer';
 import { About } from './components/About';
 import GitHubStats from './components/GitHubStats';
 import { Contact } from './components/Contact';
+import Socials from './components/home/socials/Socials';
 
 function App() {
   
@@ -31,17 +32,18 @@ function App() {
 
 
         </Routes>
-           </VStack>
-           
+          
+          </VStack> 
         <About/>
         <Skills/>
         <Projects/>
         <GitHubStats/>
-        <Contact/>
+      <Contact />
+      
 
         
         <Footer/>
-   
+    
     </ChakraProvider>
   );
 }

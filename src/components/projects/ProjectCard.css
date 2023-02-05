@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap');
 
 .project_card:hover {
-  border: 2px solid rgb(139, 139, 255);
-  margin: -2px;
+ transform: 1.5s;
 }
 
 .description {
@@ -11,7 +10,7 @@
 }
 
 #image {
-  width: 30rem;
+  width: ;
 }
 
 /* Custom, iPhone Retina */

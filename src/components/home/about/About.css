@@ -4,14 +4,7 @@
   color: orangered;
 }
 
-.aboutMe {
-  text-indent: 1ch;
-}
 
-.aboutMe p {
-  text-indent: 5ch;
-  font-family: 'Open Sans', sans-serif;
-}
 
 .fullstackdeveloper {
   width: 0ch;

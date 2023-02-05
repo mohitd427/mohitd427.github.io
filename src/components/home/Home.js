@@ -15,21 +15,21 @@ const Home = () => {
             <Image
               src={profilePic}
               alt="Mohit Kumar"
-              w={['80vw', '85vw', '90vw', '40vw']}
+              w={['60vw', '70vw', '40vw']}
               ml={['2', '3', '4', '4']}
               borderRadius="50%"
               bg={'yellow.200'}
             />
           </Box>
         </Container>
-        <Container>
+        <Container display={'flex'} flexDirection='column' alignItems={'center'} justifyContent='center'>
           <About />
           <Socials />
         </Container>
       </Flex>
       <a href={resume} download="Mohit_Kumar_Resume">
-        <Button mt="40px" fontSize={'20px'} colorScheme="blue">
-          Resume
+        <Button m=" 40px 0px" fontSize={'20px'} colorScheme="teal">
+          My Resume
         </Button>
       </a>
      

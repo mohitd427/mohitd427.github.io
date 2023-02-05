@@ -10,7 +10,7 @@ const ButtonList = () => {
           <button>Home</button>
         </Link>
         <Link to="/about">
-          <button>About </button>
+          <button>About</button>
         </Link>       
         <Link to="/skills">
           <button>Skills</button>

@@ -1,6 +1,7 @@
 import './contacts.css';
 import { BsWhatsapp } from 'react-icons/bs';
 import { Text } from '@chakra-ui/react';
+import Socials from './home/socials/Socials';
 export function Contact() {
   return (
     <>
@@ -18,19 +19,21 @@ export function Contact() {
               ></textarea>
             </div>
             <div>
-              <button>
-                Send Message <ion-icon name="send"></ion-icon>
+              <button >
+                Send Message
               </button>
             </div>
           </div>
           <div id="contact-ways">
-            <div>
-              <BsWhatsapp  color="white" name="logo-whatsapp" />
+            <div style={{margin:'20px'}}>
+              <BsWhatsapp  color="white" name="logo-whatsapp"  />
             </div>
             <div>
               <Text color={'white'}>+918004509568</Text>
             </div>
+           
           </div>
+          <div style={{ marginLeft:'40%'}}><Socials /></div>
         </div>
       </div>
     </>

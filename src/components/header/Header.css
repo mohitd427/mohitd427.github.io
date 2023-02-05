@@ -88,7 +88,7 @@
   }
 
   .spacer{
-    width: 55vw;
+    width: 30vw;
   }
 
 }
@@ -102,7 +102,7 @@
     margin-right: 5px;
   }
   .spacer{
-    width: 65vw;
+    width: 60vw;
   }
 
 }
@@ -136,7 +136,7 @@
     margin-right: 5px;
   }
   .spacer {
-    width: 85vw;
+    width: 70vw;
   }
 }
 
@@ -149,6 +149,6 @@
     display: block;
   }
   .spacer {
-    width: 60vw;
+    width: 40vw;
   }
 }
