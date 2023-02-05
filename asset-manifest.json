@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9a3fbf72.css",
-    "main.js": "/static/js/main.7cee3d79.js",
+    "main.css": "/static/css/main.d532a1c5.css",
+    "main.js": "/static/js/main.d9ae176d.js",
     "static/media/Shopping BAzar.png": "/static/media/Shopping BAzar.da5d69a139a410cc1194.png",
     "static/media/Mywardrobe.png": "/static/media/Mywardrobe.faa786f06435d068c4f1.png",
     "static/media/MOHIT_KUMAR_Resume (1).pdf": "/static/media/MOHIT_KUMAR_Resume (1).a832cbb3d68f45e77f04.pdf",
@@ -13,11 +13,11 @@
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.9a3fbf72.css.map": "/static/css/main.9a3fbf72.css.map",
-    "main.7cee3d79.js.map": "/static/js/main.7cee3d79.js.map"
+    "main.d532a1c5.css.map": "/static/css/main.d532a1c5.css.map",
+    "main.d9ae176d.js.map": "/static/js/main.d9ae176d.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a3fbf72.css",
-    "static/js/main.7cee3d79.js"
+    "static/css/main.d532a1c5.css",
+    "static/js/main.d9ae176d.js"
   ]
 }
