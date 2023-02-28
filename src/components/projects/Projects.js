@@ -32,16 +32,22 @@ const Projects = () => {
         </Text>
 
         <Center w="100vw">
-          <Grid textAlign={'center'} className="projects_grid" m="30" w={{ 'sm': '400px',md:'600px',lg:'1000px' }}>
+          <Grid
+            textAlign={'center'}
+            className="projects_grid"
+            m="30"
+            w={{ sm: '400px', md: '600px', lg: '1000px' }}
+          >
             <GridItem textAlign={'center'}>
-              <Text w={'100%'} color={'white'} mb="20px">
+              <ProjectCard imgSrc={mywardrobe_Img} name="Mywardrobe" />
+              <Text w={'100%'} color={'white'} m="20px 0px">
                 This project is clone of MyGlam E-commerce site. This project is
                 build with collaboration of 4 members. This site basically
                 belong to women.
               </Text>
-
-              <ProjectCard imgSrc={mywardrobe_Img} name="Mywardrobe" />
-
+              <Text color={'white'} m="20px 0px">
+                Tech Stacks: REACT REACT-REDUX FIREBASE AUTHENTICATION{' '}
+              </Text>
               <Link href="https://github.com/mohitd427/My-Wardrobe" isExternal>
                 <Button>
                   <BsGithub />
@@ -55,11 +61,6 @@ const Projects = () => {
             </GridItem>
 
             <GridItem>
-              <Text color={'white'} mb="20px">
-                This project is clone of Myntra Ecommerce site. This project is
-                build with collaboration of 4 members. This site provide
-                products related to clothing and footwear.
-              </Text>
               <ProjectCard
                 text={''}
                 imgSrc={Shopping_Bazzar_Img}
@@ -67,7 +68,14 @@ const Projects = () => {
                 githubLink=""
                 netlifyLink=""
               />
-
+              <Text color={'white'} m="20px 0">
+                This project is clone of Myntra Ecommerce site. This project is
+                build with collaboration of 4 members. This site provide
+                products related to clothing and footwear.
+              </Text>
+              <Text color={'white'} m="20px 0px">
+                Tech Stacks: JAVASCRIPT REACT REACT-REDUX STYLED-COMPONENTS
+              </Text>
               <Link
                 href="https://github.com/imsukhdevhansda/shopping-bazaar"
                 isExternal
@@ -84,15 +92,16 @@ const Projects = () => {
             </GridItem>
 
             <GridItem>
-              <Text color={'white'} width="100%" mb="20px">
+              <ProjectCard imgSrc={twiik_img} name="Twiik App" />
+              <Text color={'white'} width="100%" m="20px 0">
                 This project is clone twiik fitness app. This project is build
                 with collaboration of 4 members. It track all the sport events
                 of the user. User can track all his fitness related data like
                 health, cardio, heart rate ect with a detailed graph view.
               </Text>
-
-              <ProjectCard imgSrc={twiik_img} name="Twiik App" />
-
+              <Text color={'white'} m="20px 0px">
+                Tech Stacks: HTML CSS JAVASCRIPT
+              </Text>
               <Link
                 href="https://github.com/vikalp1999/cosmic-toy-4083"
                 isExternal
@@ -112,13 +121,14 @@ const Projects = () => {
             </GridItem>
 
             <GridItem>
-              <Text color={'white'} mb="20px">
+              <ProjectCard imgSrc={CoscheduleImg} name="CoSchedule App" />
+              <Text color={'white'} m="20px 0">
                 This project is clone of Coschedule app. It offers business
                 related tools to scale up the business on the larger scale.
               </Text>
-
-              <ProjectCard imgSrc={CoscheduleImg} name="CoSchedule App" />
-
+              <Text color={'white'} m="20px 0px">
+                Tech Stacks: HTML CSS
+              </Text>
               <Link
                 href="https://github.com/mohitd427/cozy-passenger-4798"
                 isExternal

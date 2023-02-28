@@ -34,15 +34,11 @@ const MobileMenu = () => {
         />
         <MenuList bg="brand.100" color="white">
           <Link to="/">
-            <MenuItem
-            color={'black'}
-            >
-              Home
-            </MenuItem>
+            <MenuItem color={'black'}>Home</MenuItem>
           </Link>
           <Link to="/about">
             <MenuItem
-            color={'black'}
+              color={'black'}
               _focus={{ bg: 'whitesmoke', color: 'black' }}
               _hover={{ bg: 'whitesmoke', color: 'black' }}
             >
@@ -51,7 +47,7 @@ const MobileMenu = () => {
           </Link>
           <Link to="/skills">
             <MenuItem
-            color={'black'}
+              color={'black'}
               _focus={{ bg: 'whitesmoke', color: 'black' }}
               _hover={{ bg: 'whitesmoke', color: 'black' }}
             >
@@ -59,14 +55,17 @@ const MobileMenu = () => {
             </MenuItem>
           </Link>
           <Link to="/projects">
-            <MenuItem color={'black'} _hover={{ bg: 'whitesmoke', color: 'black' }}>
+            <MenuItem
+              color={'black'}
+              _hover={{ bg: 'whitesmoke', color: 'black' }}
+            >
               {' '}
               Projects
             </MenuItem>
           </Link>
           <Link to="/githubStats">
             <MenuItem
-            color={'black'}
+              color={'black'}
               _focus={{ bg: 'whitesmoke', color: 'black' }}
               _hover={{ bg: 'whitesmoke', color: 'black' }}
             >
@@ -74,19 +73,15 @@ const MobileMenu = () => {
             </MenuItem>
           </Link>
           <Link to="/">
-            <MenuItem
-            color={'black'}
-            >
-              Contacts
-            </MenuItem>
+            <MenuItem color={'black'}>Contacts</MenuItem>
           </Link>
-          <LinkChakra
-            href="https://drive.google.com/file/d/1SAgnF2mgVBxDEoqZkJsfc3Ofv061nlTf/view?usp=sharing"
-            target=""
+          <a
+            href="https://drive.google.com/file/d/102LuUUUuiTYcQ7neah-wH6wiUwwmEQSK/view?usp=share_link"
+            download="fw20_0712-Mohit_Kumar_Resume"
             color={'black'}
           >
             <MenuItem>Resume</MenuItem>
-          </LinkChakra>
+          </a>
         </MenuList>
       </Menu>
     </div>

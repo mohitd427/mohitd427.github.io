@@ -3,11 +3,22 @@
  #skills{
     margin: 0 10vh  20vh 0 ;
   }
-
-  #skills div{
+  .skills_title{
     text-align: center;
-    border-left: 2px solid #023e49;
-    border-right: 2px solid #023e49;
+   margin: auto;
+    text-decoration: underline;
+  }
+
+  #skills{
+    
+    display: grid;
+    gap: 1.2rem;
+    padding: 20px;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 100px;
+   
+    /* border-left: 2px solid #023e49;
+    border-right: 2px solid #023e49; */
   }
 
   #skills img{
@@ -16,3 +27,23 @@
     border-radius: 50%;
     width: 100px;
   }
+
+    @media only screen and (max-width: 880px) {
+      .skills_title{
+        margin-top: 60px;
+      }
+    #skills{
+      grid-template-columns: repeat(3,1fr);
+      margin-left: 80px;
+    }
+  }
+
+     @media only screen and (max-width: 480px) {
+      .skills_title {
+          margin-top: 40px;
+        }
+       #skills {
+         grid-template-columns: repeat(2, 1fr);
+         margin-left:30px ;
+       }
+     }

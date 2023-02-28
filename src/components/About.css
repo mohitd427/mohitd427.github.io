@@ -48,3 +48,12 @@
       text-indent: 5ch;
       font-family: 'Open Sans', sans-serif;
     }
+
+        
+ @media only screen and (max-width: 680px){
+    .aboutDiv{
+      display: flex;
+      flex-direction: column;
+      
+    }
+ }

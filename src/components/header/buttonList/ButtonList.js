@@ -1,6 +1,8 @@
 import React from 'react';
 import { HStack, Link as LinkChakra} from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
+import resume from '../../header/buttonList/MOHIT_KUMAR_Resume (1).pdf';
+
 
 const ButtonList = () => {
   return (
@@ -11,21 +13,29 @@ const ButtonList = () => {
         </Link>
         <Link to="/about">
           <button>About</button>
-        </Link>       
+        </Link>
         <Link to="/skills">
           <button>Skills</button>
         </Link>
         <Link to="/projects">
           <button>Projects</button>
         </Link>
-        
+
         <Link to="/Contacts">
           <button>Contacts</button>
         </Link>
-        <a 
-        href="https://drive.google.com/file/d/1SAgnF2mgVBxDEoqZkJsfc3Ofv061nlTf/view?usp=sharing"
-        download={'Mohit_Kumar_Resume(1).pdf'}        
-        ><button>Resume</button></a>
+        <a
+          onClick={() => {
+            window.open(
+              'https://drive.google.com/file/d/102LuUUUuiTYcQ7neah-wH6wiUwwmEQSK/view?usp=share_link',
+              'blank'
+            );
+          }}
+          href={resume}
+          download="fw20_0712-Mohit_Kumar_Resume"
+        >
+          <button>Resume</button>
+        </a>
       </HStack>
     </div>
   );

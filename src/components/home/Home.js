@@ -19,20 +19,25 @@ const Home = () => {
               ml={['2', '3', '4', '4']}
               borderRadius="50%"
               bg={'yellow.200'}
+              mt="100px"
             />
           </Box>
         </Container>
-        <Container display={'flex'} flexDirection='column' alignItems={'center'} justifyContent='center'>
+        <Container
+          display={'flex'}
+          flexDirection="column"
+          alignItems={'center'}
+          justifyContent="center"
+        >
           <About />
           <Socials />
         </Container>
       </Flex>
-      <a href={resume} download="Mohit_Kumar_Resume">
+      <a href={resume} download="fw20_0712-Mohit_Kumar_Resume">
         <Button m=" 40px 0px" fontSize={'20px'} colorScheme="teal">
           My Resume
         </Button>
       </a>
-     
     </>
   );
 };
