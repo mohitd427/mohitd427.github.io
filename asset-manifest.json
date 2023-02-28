@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.40e5274d.css",
+    "main.css": "/static/css/main.0f324271.css",
     "main.js": "/static/js/main.6f6ec9b6.js",
     "static/media/Shopping BAzar.png": "/static/media/Shopping BAzar.da5d69a139a410cc1194.png",
     "static/media/Mywardrobe.png": "/static/media/Mywardrobe.faa786f06435d068c4f1.png",
@@ -13,11 +13,11 @@
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.40e5274d.css.map": "/static/css/main.40e5274d.css.map",
+    "main.0f324271.css.map": "/static/css/main.0f324271.css.map",
     "main.6f6ec9b6.js.map": "/static/js/main.6f6ec9b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.40e5274d.css",
+    "static/css/main.0f324271.css",
     "static/js/main.6f6ec9b6.js"
   ]
 }
