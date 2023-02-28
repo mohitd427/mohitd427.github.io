@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.7bf49719.css",
-    "main.js": "/static/js/main.928b811c.js",
+    "main.js": "/static/js/main.6a261e49.js",
     "static/media/Shopping BAzar.png": "/static/media/Shopping BAzar.da5d69a139a410cc1194.png",
     "static/media/Mywardrobe.png": "/static/media/Mywardrobe.faa786f06435d068c4f1.png",
     "static/media/MOHIT_KUMAR_Resume (1).pdf": "/static/media/MOHIT_KUMAR_Resume (1).a832cbb3d68f45e77f04.pdf",
     "static/media/CoscheduleImg.png": "/static/media/CoscheduleImg.861355a793e174887b9b.png",
-    "static/media/mohit_pic-removebg-preview.png": "/static/media/mohit_pic-removebg-preview.7a6effa5ac4e02520124.png",
     "static/media/twiik_img.png": "/static/media/twiik_img.5cf3e61bc14ef91c9f3a.png",
+    "static/media/Mohit Photo.png": "/static/media/Mohit Photo.9f85d34ffc6c960d3dcd.png",
     "static/media/mklogo.png": "/static/media/mklogo.219c120c36209776fec5.png",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.7bf49719.css.map": "/static/css/main.7bf49719.css.map",
-    "main.928b811c.js.map": "/static/js/main.928b811c.js.map"
+    "main.6a261e49.js.map": "/static/js/main.6a261e49.js.map"
   },
   "entrypoints": [
     "static/css/main.7bf49719.css",
-    "static/js/main.928b811c.js"
+    "static/js/main.6a261e49.js"
   ]
 }
