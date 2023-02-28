@@ -1,6 +1,6 @@
 import { Box, Container, Flex, Image, Button } from '@chakra-ui/react';
 import React from 'react';
-import profilePic from '../images/mohit_pic-removebg-preview.png';
+import profilePic from '../images/Mohit Photo.png';
 import Socials from './socials/Socials';
 import About from './about/About';
 
