@@ -29,21 +29,8 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/githubStats" element={<GitHubStats />} />
           <Route path="/contacts" element={<Contact />} />
-
-
-        </Routes>
-          
-          </VStack> 
-        <About/>
-        <Skills/>
-        <Projects/>
-        <GitHubStats/>
-      <Contact />
-      
-
-        
-        <Footer/>
-    
+        </Routes>          
+      </VStack>   
     </ChakraProvider>
   );
 }

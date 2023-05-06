@@ -40,12 +40,13 @@ const Projects = () => {
           >
             <GridItem textAlign={'center'}>
               <ProjectCard imgSrc={mywardrobe_Img} name="Mywardrobe" />
+
               <Text w={'100%'} color={'white'} m="20px 0px">
                 This project is clone of MyGlam E-commerce site. This project is
                 build with collaboration of 4 members. This site basically
                 belong to women.
               </Text>
-              <Text color={'white'} m="20px 0px">
+              <Text color={'white'} m="20px 0px" >
                 Tech Stacks: REACT REACT-REDUX FIREBASE AUTHENTICATION{' '}
               </Text>
               <Link href="https://github.com/mohitd427/My-Wardrobe" isExternal>

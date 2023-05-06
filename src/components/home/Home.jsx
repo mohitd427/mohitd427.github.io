@@ -4,7 +4,7 @@ import profilePic from '../images/Mohit Photo.png';
 import Socials from './socials/Socials';
 import About from './about/About';
 
-import resume from '../header/buttonList/MOHIT_KUMAR_Resume (1).pdf';
+import resume from '../../Resume/MOHIT_KUMAR_Resume_.pdf';
 
 const Home = () => {
   return (

@@ -1,4 +1,3 @@
-import CarouselSlider from './CarouselSlider';
 import './Skill.css';
 
 export function Skills() {

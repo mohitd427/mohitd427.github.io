@@ -1,7 +1,7 @@
 import React from 'react';
 import { HStack, Link as LinkChakra} from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
-import resume from '../../header/buttonList/MOHIT_KUMAR_Resume (1).pdf';
+import resume from '../../../Resume/MOHIT_KUMAR_Resume_.pdf';
 
 
 const ButtonList = () => {
