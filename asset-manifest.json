@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.861caeb2.css",
-    "main.js": "/static/js/main.095c758f.js",
+    "main.css": "/static/css/main.507e5060.css",
+    "main.js": "/static/js/main.99d4a139.js",
     "static/media/Shopping BAzar.png": "/static/media/Shopping BAzar.da5d69a139a410cc1194.png",
     "static/media/Mywardrobe.png": "/static/media/Mywardrobe.faa786f06435d068c4f1.png",
     "static/media/MOHIT_KUMAR_Resume_.pdf": "/static/media/MOHIT_KUMAR_Resume_.c42711611c6d33b31f44.pdf",
@@ -10,11 +10,11 @@
     "static/media/Mohit Photo.png": "/static/media/Mohit Photo.9f85d34ffc6c960d3dcd.png",
     "static/media/mklogo.png": "/static/media/mklogo.219c120c36209776fec5.png",
     "index.html": "/index.html",
-    "main.861caeb2.css.map": "/static/css/main.861caeb2.css.map",
-    "main.095c758f.js.map": "/static/js/main.095c758f.js.map"
+    "main.507e5060.css.map": "/static/css/main.507e5060.css.map",
+    "main.99d4a139.js.map": "/static/js/main.99d4a139.js.map"
   },
   "entrypoints": [
-    "static/css/main.861caeb2.css",
-    "static/js/main.095c758f.js"
+    "static/css/main.507e5060.css",
+    "static/js/main.99d4a139.js"
   ]
 }
