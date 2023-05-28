@@ -5,10 +5,8 @@ import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import "animate.css"
 import {Skills} from "./components/Skills/Skill.jsx"
-
 import Home from './components/home/Home';
 import Projects from './components/projects/Projects';
-
 import {theme} from "./Theme/Theme";
 import Footer from './components/footer/Footer';
 import { About } from './components/About';
@@ -22,14 +20,21 @@ function App() {
     <ChakraProvider theme={theme}>
       <VStack backgroundColor="brand.300">
         <Header />
-        <Routes>
+        <Home />
+        <About />
+        <Skills />
+        <Projects />
+        <GitHubStats />
+        <Contact/>
+        
+        {/* <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/Skill" element={<Skills />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/githubStats" element={<GitHubStats />} />
           <Route path="/contacts" element={<Contact />} />
-        </Routes>          
+        </Routes>           */}
       </VStack>   
     </ChakraProvider>
   );

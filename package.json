@@ -14,6 +14,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
     "dotenv": "^16.0.3",
     "file-saver": "^2.0.5",
     "framer-motion": "^7.10.2",
@@ -31,6 +32,7 @@
     "react-rotating-text": "^1.4.1",
     "react-router-dom": "^6.4.5",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.9",
     "react-social-login-buttons": "^3.6.1",
     "semantic-ui-react": "^2.1.4",
     "styled-components": "^5.3.6"

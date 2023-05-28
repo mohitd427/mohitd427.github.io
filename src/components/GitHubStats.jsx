@@ -1,6 +1,8 @@
 import { Box } from "@chakra-ui/react";
 import Graph from "./home/github_graph/Graph";
 import "./GitHubStats.css"
+import Aos from "aos";
+import { useEffect } from "react";
 
 
 const selectLastHalfYear = (contributions) => {
@@ -20,6 +22,9 @@ const selectLastHalfYear = (contributions) => {
 
 const GitHubStats = () => {
 
+useEffect(() => {
+  Aos.init({duration:2000})  
+}, [])
 
   return (
     <>

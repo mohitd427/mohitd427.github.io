@@ -2,6 +2,7 @@
 
 .project_card:hover {
  transform: 1.5s;
+ transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .description {

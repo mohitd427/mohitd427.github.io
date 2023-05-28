@@ -1,6 +1,8 @@
 import React from 'react';
 import { HStack, Link as LinkChakra} from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
+import Aos from "aos"
+import 'aos/dist/aos.css'
 import resume from '../../../Resume/MOHIT_KUMAR_Resume_.pdf';
 
 
